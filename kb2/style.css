@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background:linear-gradient(180deg, #E9CC5A 0%, #DE3602 100%);
+    background-repeat: no-repeat;  
+    height: max-content ;
+}
+
+.rounded-circle{
+    width: 60px;
+    height: 60px;
+}   
+
+@font-face {
+    font-family: bright;
+    src: url(Bright\ DEMO.otf);
+}
+h1{
+    font-family: 'bright';
+}
+.copyright{
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
